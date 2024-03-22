@@ -37,3 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 The process::
 We created a file routing structure by creating route groups and more advanced routing concepts and then we used clerk to manage sign in and sign out or as a use management system
+
+Password cluster: nb4zqcWan2qNOqJC
