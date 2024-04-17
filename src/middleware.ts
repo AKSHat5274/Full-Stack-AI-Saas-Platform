@@ -1,8 +1,8 @@
 import { authMiddleware } from '@clerk/nextjs/server';
 
 export default authMiddleware({
-publicRoutes: ["/api/webhook/clerk"],
-ignoredRoutes: ["/((?!api|trpc))(_next.*|.+.[\w]+$)", "/api/webhook/clerk"]
+publicRoutes: ["/api/webhooks/clerk"],
+ignoredRoutes: ["/((?!api|trpc))(_next.*|.+.[\w]+$)", "/api/webhooks/clerk"]
 })
 
 // Stop Middleware running on static files
